@@ -1,0 +1,31 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1.15);
+        opacity: .35;
+    }
+    50% {
+        transform: scale(1.25) translateY(-2.5%);
+        opacity: .20;
+    }
+    100% {
+        transform: scale(1.15);
+        opacity: .35;
+    }
+}
+
+.main {
+    animation: fadein 1s ease-in;
+}
+
+#background-grid {
+    animation: grow 25s infinite ease-in-out;
+}

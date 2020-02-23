@@ -1,0 +1,54 @@
+$primary-font: 'Exo 2', sans-serif;
+$secondary-font: 'Comfortaa', sans-serif;
+$background-color: rgba(254, 255, 225, 0.925);
+
+h1 {
+    font-size: 300%;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+h2 {
+    font-size: 200%;
+    font-family: $secondary-font;
+    letter-spacing: 1.3rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 100%;
+    font-family: $secondary-font;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #535353e0;
+}
+
+p {
+    font-family: $secondary-font;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem;
+    background: $background-color;
+    backdrop-filter: blur(2px);
+    z-index: 5;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
+
+.yellow {
+    background: yellow;
+    border: .2rem solid black;
+}
+
+.blue {
+    background: blue;
+}

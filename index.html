@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- favicon -->
+    <link rel="icon" type="image/jpeg" href="/img/favicon-compressed.jpg" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa|Exo+2&display=swap"
+      rel="stylesheet"
+    />
+    <!-- compiled css -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+    <!-- Scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Piet Mondrian | Abstract Revolution</title>
+  </head>
+
+  <body>
+    <div id="background-grid">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+
+    <section id="home">
+      <main class="main">
+        <div class="red"></div>
+        <h1 class="main-title">Piet Mondrian | Abstract Revolution</h1>
+        <div class="black hl"></div>
+        <div class="yellow"></div>
+        <ul class="main-links">
+          <li class="link link-about"><a href="#about">About</a></li>
+          <li class="link link-works"><a href="#works">Works</a></li>
+          <li class="link link-info"><a href="#info">Info</a></li>
+        </ul>
+        <div class="black vl"></div>
+        <div class="blue"></div>
+        <div class="white"></div>
+      </main>
+    </section>
+    
+    <script>
+      ScrollReveal().reveal(".main-title", { delay: 700 });
+      ScrollReveal().reveal(".link-about", { delay: 1000 });
+      ScrollReveal().reveal(".link-works", { delay: 1100 });
+      ScrollReveal().reveal(".link-info", { delay: 1200 });
+
+      ScrollReveal().reveal(".yellow", {
+        delay: 1600,
+        distance: "100px",
+        origin: "bottom"
+      });
+      ScrollReveal().reveal(".red", {
+        delay: 1700,
+        distance: "500px",
+        origin: "top"
+      });
+      ScrollReveal().reveal(".blue", {
+        delay: 1600,
+        distance: "150px",
+        origin: "right"
+      });
+      ScrollReveal().reveal(".hl", {
+        delay: 1800,
+        distance: "500px",
+        origin: "top"
+      });
+      ScrollReveal().reveal(".vl", {
+        delay: 1700,
+        distance: "350px",
+        origin: "right"
+      });
+    </script>
+  </body>
+</html>

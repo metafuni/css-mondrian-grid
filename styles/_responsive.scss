@@ -1,0 +1,68 @@
+@media (max-width: '1124px') {
+    section {
+        height: 150vw;
+    }
+    .main {
+        grid-auto-rows: 120px;
+    }
+    #about {
+        margin-bottom: 75rem;
+    }
+    h2, #age, p {
+        padding: 0;
+        margin: 0 1.5rem;
+    }
+}
+
+@media (max-width: '786px') {
+    .main {
+        transform: rotate(0deg);
+        grid-auto-rows: 150px;
+        max-height: 100vh;
+    }
+
+    #home {
+        height: 100%;
+    }
+
+    .main-links {
+        writing-mode: inherit;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .hl {
+        margin-top: -50%;
+    }
+
+    .red {
+        max-height: 150px;
+    }
+}
+
+@media (min-width: '786px') {
+    .main {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        margin: 15% auto;
+        max-width: 850px;
+    }
+
+    .main-links {
+        writing-mode: vertical-rl;
+    }
+
+    .hl {
+        margin-top: -250%;
+    }
+}
+
+@media (min-width: '1200px') {
+    .hl {
+        margin-top: -750%;
+        height: 80vw;
+    }
+}

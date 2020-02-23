@@ -1,0 +1,43 @@
+@import 'config';
+@import 'layout';
+@import 'responsive';
+@import 'animations';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $background-color;
+    overflow-x: hidden;
+}
+
+.main {
+    font-family: $secondary-font;
+}
+
+.main-links {
+    list-style: none;
+    padding: .5rem;
+    font-size: 125%;
+    font-weight: 600;
+    background: linear-gradient(#dddddde0, rgba(254, 255, 225, 0.25));
+    backdrop-filter: blur(2px);
+    height: 125vw;
+    left: -100%;
+    transition: .7s;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        color: rgba(0, 0, 0, 0.65);
+        transition: .3s;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
